@@ -79,3 +79,69 @@ body {
 .highlight {
 	font-weight: 800;
 }
+
+@media (max-width: 1250px) {
+	.text-block {
+		text-align: justify;
+		color: whitesmoke;
+		font-family: "Arial", sans-serif;
+		font-weight: 800;
+		font-size: 16px;
+		letter-spacing: 0px;
+		line-height: 90%;
+		-webkit-font-smoothing: none;
+		padding: 2%;
+	}
+
+	#one {
+		background-color: lightgoldenrodyellow;
+		color: black;
+		font-size: 12px;
+		line-height: 105%;
+		letter-spacing: -0.75px;
+		font-weight: 100;
+	}
+
+	#two {
+		background-color: lightgoldenrodyellow;
+		color: black;
+		font-size: 32px;
+		padding: 5%;
+		line-height: 80%;
+		letter-spacing: -2px;
+		text-align: justify;
+		position: sticky;
+	}
+
+	#three {
+		font-size: 32px;
+		letter-spacing: 1px;
+		padding: 5%;
+	}
+
+	#four {
+		color: black;
+		background-color: white;
+		font-weight: 200;
+	}
+
+	#five {
+		color: black;
+		background-color: lightgoldenrodyellow;
+	}
+
+	#six {
+		color: black;
+		background-color: aliceblue;
+		/* font-weight: 100; */
+		letter-spacing: -2px;
+		font-size: 32px;
+		line-height: 110%;
+		rotate: 4deg;
+		font-stretch: condensed;
+	}
+
+	.highlight {
+		font-weight: 800;
+	}
+}
